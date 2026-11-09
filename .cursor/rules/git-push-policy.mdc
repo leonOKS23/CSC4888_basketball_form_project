@@ -1,0 +1,20 @@
+---
+description: Git push and commit-attribution policy for this repo
+alwaysApply: true
+---
+
+# Git push policy
+
+- Never run `git push` (or any command that publishes commits to a remote,
+  e.g. `gh pr create` that pushes a branch) in this repository, under any
+  circumstances, even if asked to "push", "publish", "sync", or "open a PR".
+- If the user wants commits pushed, tell them the commits are ready locally
+  and ask them to push. Do not push "just this once" even with explicit
+  reassurance in the moment — always defer to the user running `git push`
+  themselves.
+- Local git operations (`git add`, `git commit`, `git status`, `git diff`,
+  `git log`, local branches) are fine.
+- Never add Cursor/AI attribution to commits or code: no "Co-Authored-By"
+  trailers mentioning Cursor, no "Generated with Cursor" / "Made with
+  Cursor" tags, badges, or comments in commit messages, README files, or
+  source code.

@@ -1,0 +1,6 @@
+participant_id,assigned_shooting_side,n_votes_right,n_votes_left,n_votes_total,fraction_majority,overridden
+P0001,RIGHT,213,0,213,1.0,False
+P0002,RIGHT,93,0,93,1.0,False
+P0003,RIGHT,90,0,90,1.0,False
+P0004,RIGHT,89,0,89,1.0,False
+P0005,RIGHT,80,18,98,0.8163265306122449,False

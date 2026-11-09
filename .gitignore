@@ -1,0 +1,27 @@
+# raw dataset (large, downloaded separately — see README "Setup" section)
+data/raw/
+data/*.zip
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# OS
+.DS_Store
+
+# mediapipe model files (downloaded separately, see mediapipe_demo/README.md)
+mediapipe_demo/models/*.task
+
+# jupyter
+.ipynb_checkpoints/
+
+# local scratch
+*.log
+.pytest_cache/
