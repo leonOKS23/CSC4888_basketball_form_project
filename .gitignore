@@ -1,0 +1,31 @@
+# local Cursor config/rules - not part of the submitted project
+.cursor/
+
+# raw dataset (large, downloaded separately - see TICKETS.md ticket 1)
+data/raw/
+data/*.zip
+*.zip
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# OS
+.DS_Store
+
+# mediapipe model files (downloaded separately, see mediapipe_demo/README.md)
+mediapipe_demo/models/*.task
+
+# jupyter
+.ipynb_checkpoints/
+
+# local scratch
+*.log
+.pytest_cache/
