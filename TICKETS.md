@@ -1,5 +1,16 @@
 # Project plan / tickets
 
+## Current status
+
+- Tickets 0–2 complete: `.venv`, pinned dependencies, verified data download,
+  sequential notebook execution, and schema/player-count audit. See
+  [README.md](README.md) and [DATA_NOTES.md](DATA_NOTES.md).
+- Ticket 3 in progress: identified a false late release for 2025 P0001/T0036;
+  detector revision and per-player visual validation remain.
+- Tickets 4–11 not started. Ticket 12 remains optional.
+
+---
+
 Goal: predict whether a free throw is made or missed, using body mechanics
 from *before* the ball is released, using the SPL Open Data free-throw
 mocap dataset.
